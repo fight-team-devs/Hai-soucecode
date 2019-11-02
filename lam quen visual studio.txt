@@ -1,6 +1,0 @@
-Phím t?t trong Visual Studio
-Comment Ctrl + K + C
-Gi?i Comment Ctrl + K + U
-Canh ch?nh các dòng cho ngay ng?n Ctrl + K - Ctrl + F
-1 Solution ch?a nhi?u Project
-M?i Project là 1 bài
