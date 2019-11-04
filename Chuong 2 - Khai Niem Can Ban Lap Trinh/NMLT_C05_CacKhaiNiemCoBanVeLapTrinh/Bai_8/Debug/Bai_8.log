@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\admin\documents\github\hai-soucecode\nmlt_c05_cackhainiemcobanvelaptrinh\bai_8\source.cpp(6): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Bai_8.vcxproj -> C:\Users\Admin\Documents\GitHub\Hai-soucecode\NMLT_C05_CacKhaiNiemCoBanVeLapTrinh\Debug\Bai_8.exe
+  Bai_8.vcxproj -> C:\Users\Admin\Documents\GitHub\Hai-soucecode\NMLT_C05_CacKhaiNiemCoBanVeLapTrinh\Debug\Bai_8.pdb (Partial PDB)
