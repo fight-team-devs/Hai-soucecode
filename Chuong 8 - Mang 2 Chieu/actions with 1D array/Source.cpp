@@ -13,7 +13,8 @@ void inputArray(int *a, int length) {
 }
 
 //insert
-void insertElement(int *a, int length, int position, int value) {
+void insertElement(int *a, int &length, int position, int value) {
+	length++;
 	for (int i = length - 1; i > position; i--) {
 		a[i] = a[i - 1];
 	}
@@ -22,11 +23,17 @@ void insertElement(int *a, int length, int position, int value) {
 }
 
 //delete
-void deleteElement(int *a, int length, int position) {
-	for (int i = position; i < length - 1; i++) {
-		a[i] = a[i + 1];
+void deleteElement(int *a, int &length, int position) {
+	length--;
+	if (length == 0) {
+		a = NULL;
 	}
-	a[length - 1] = 0;
+	else {
+		for (int i = position; i < length - 1; i++) {
+			a[i] = a[i + 1];
+		}
+		a[length - 1] = 0;
+	}
 	cout << "\n======================================\n";
 }
 
@@ -103,9 +110,6 @@ int main() {
 	//output array
 	cout << "\nOutput array: \n";
 	printArray(a, length);
-
-	//release array
-	delete a;
 
 	system("pause");
 	return 0;
