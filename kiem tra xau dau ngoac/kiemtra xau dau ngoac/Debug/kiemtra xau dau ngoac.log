@@ -1,0 +1,2 @@
+﻿  Source.cpp
+c:\users\haipc\documents\github\hai-soucecode\kiem tra xau dau ngoac\kiemtra xau dau ngoac\source.cpp(56): error C4700: uninitialized local variable 'checkHopLe' used
