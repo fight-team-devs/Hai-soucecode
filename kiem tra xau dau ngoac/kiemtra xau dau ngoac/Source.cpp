@@ -53,11 +53,12 @@ int main() {
 	}
 
 	kiemTraHopLe(s);
+	checkHopLe = kiemTraHopLe(s);
 	if (checkHopLe == false) {
-		cout << "Xau dau ngoac da nhap khong hop le!\n";
+		cout << "FALSE!\n";
 	}
 	else {
-		cout << "Xau dau ngoac da nhap hop le.\n";
+		cout << "TRUE!\n";
 	}
 
 	system("pause");
