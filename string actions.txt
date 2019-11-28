@@ -1,0 +1,23 @@
+https://vnoi.info/wiki/languages/cpp/string
+
+Thao tác với chuỗi:
+
+- nhập chuỗi s chứa cả khoảng trắng:
+	getline(cin, s);
+  tuy nhiên nếu đằng trước getline(); có lệnh cin >> thì cần thêm lệnh:
+	cin.ignore();
+- tách chuỗi con từ chuỗi s:
+	s.substr(pos, length);
+- lấy độ dài chuỗi:
+	s.length();
+  hoặc
+	s.size();
+- gán chuỗi:
+	toán tử =
+- chèn vào chuỗi:
+	str.insert(int pos, char* s); chèn s (mảng ký tự kết thúc \0) vào vị trí pos của str.
+	str.insert(int pos, string s); chèn chuỗi s (kiểu string) vào vị trí pos của chuỗi str.
+	str.insert(int pos, int n, int ch); chèn n lần ký tự ch vào vị trí pos của chuỗi str.
+- xóa ký tự trong chuỗi:
+	str.erase(int pos, int n); xóa n ký tự của chuỗi str kể từ vị trí pos.
+  nếu không quy định giá trị n thì tất cả các ký tự của str từ vị trí pos trở đi sẽ bị xóa.
