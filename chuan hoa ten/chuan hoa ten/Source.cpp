@@ -3,7 +3,7 @@
 using namespace std;
 
 void nhapTen(string &s) {
-	cin.ignore();
+	//cin.ignore();
 	getline(cin, s);
 }
 
@@ -23,7 +23,7 @@ void chuanHoaTen(string& s) {
 	int length = s.length();
 
 	//xoa khoang trang o dau dong
-	while (s[0] == 32) {
+	while (s[0] == ' ') {
 		s.erase(0, 1);
 		length--;
 	}
