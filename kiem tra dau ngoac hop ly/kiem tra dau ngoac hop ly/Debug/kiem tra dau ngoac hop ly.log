@@ -1,0 +1,2 @@
+﻿  Source.cpp
+c:\users\haipc\source\repos\kiem tra dau ngoac hop ly\kiem tra dau ngoac hop ly\source.cpp(56): error C4700: uninitialized local variable 'checkHopLe' used

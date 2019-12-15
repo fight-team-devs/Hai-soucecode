@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\haipc\documents\github\hai-soucecode\test huong doi tuong\test ham nguyen mau\source.cpp(13): warning C4305: 'argument': truncation from 'double' to 'New'
+          with
+          [
+              New=float
+          ]
+  test ham nguyen mau.vcxproj -> C:\Users\HAIPC\Documents\GitHub\Hai-soucecode\test huong doi tuong\Debug\test ham nguyen mau.exe
