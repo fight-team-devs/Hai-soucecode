@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\haipc\documents\github\hai-soucecode\test huong doi tuong\override\source.cpp(29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\haipc\documents\github\hai-soucecode\test huong doi tuong\override\source.cpp(45): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\haipc\documents\github\hai-soucecode\test huong doi tuong\override\source.cpp(60): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  override.vcxproj -> C:\Users\HAIPC\Documents\GitHub\Hai-soucecode\test huong doi tuong\Debug\override.exe

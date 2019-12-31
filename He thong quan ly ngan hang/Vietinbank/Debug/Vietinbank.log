@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\haipc\documents\github\hai-soucecode\he thong quan ly ngan hang\vietinbank\source.cpp(164): warning C4101: 'tenArr': unreferenced local variable
+c:\users\haipc\documents\github\hai-soucecode\he thong quan ly ngan hang\vietinbank\source.cpp(165): warning C4101: 'IDArr': unreferenced local variable
+  Vietinbank.vcxproj -> C:\Users\HAIPC\Documents\GitHub\Hai-soucecode\He thong quan ly ngan hang\Debug\Vietinbank.exe

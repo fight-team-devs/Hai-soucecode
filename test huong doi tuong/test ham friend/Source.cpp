@@ -24,8 +24,8 @@ public:
 //C la lop friend cua A
 class C {
 public:
-	void setADtata(A&);
-	void showAformC(A);
+	void setAData(A&);
+	void showAfromC(A);
 };
 
 //ham thanh phan co the truy cap truc tiep thanh phan private
@@ -42,11 +42,11 @@ void B::showA(A a) {
 	cout << a.data << endl;
 }
 
-void C::setADtata(A& a) {
+void C::setAData(A& a) {
 	a.data = 300;
 }
 
-void C::showAformC(A a) {
+void C::showAfromC(A a) {
 	cout << "from C: a.data = " << a.data << endl;
 }
 
@@ -63,8 +63,8 @@ int main() {
 	system("pause");
 
 	C c;
-	c.setADtata(a);
-	c.showAformC(a);
+	c.setAData(a);
+	c.showAfromC(a);
 
 	system("pause");
 	return 0;

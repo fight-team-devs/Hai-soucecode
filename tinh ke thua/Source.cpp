@@ -15,6 +15,7 @@ public:
 };
 
 //class con
+//neu co  nhieu class cha thi cac class cha ngan cach boi dau phay
 class Student : Person {
 	string studentID;
 	int level;
